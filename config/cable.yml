@@ -1,0 +1,9 @@
+development:
+  adapter: async
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://redistogo:7ff72aa7e8572b58c704ebcbb979af57@crestfish.redistogo.com:11969/
